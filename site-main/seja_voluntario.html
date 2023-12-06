@@ -9,33 +9,31 @@
 </head>
 <body>
     <header>
-        <div>
-            <h1 class="titulo">
-                Escola Metodista O Semeador
-            </h1>
-        </div>
-        <div class="logo">
-            <a href="pii.html">
-              <img id="logosemeador" src="imgs/logo.png" alt="Logo" width="140px">
-            </a>
-        </div>
-        <div class="pesquisa">
-          <nav class="navbar">
-            <div class="container-fluid">
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                <button class="botaopesquisa" type="submit">Pesquisar</button>
-              </form>
-            </div>
-          </nav>
-        </div>
-        <div class="voluntario">
-            <a href="seja_voluntario.html">Seja voluntário</a>
-        </div>
-        <nav>
-            <!-- Botão sobre a escola -->
-            <div class="dropdown">
-                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <div class="cabecalho">
+        <h1 class="titulo">
+            Escola Metodista O Semeador
+        </h1>
+       <a href="seja_voluntario.html" class="voluntario">Seja Voluntário</a>
+      </div>
+      <div class="logo">
+      <a href="pii.html">
+        <img id="logosemeador" src="imgs/logo.png" alt="Logo" width="140px">
+      </a>
+      </div>
+      <nav class="navbar navbar-expand-lg bg-body">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!-- botao home -->
+              <li class="nav-item" id="nav">
+                <a class="nav-link active" aria-current="page" href="pii.html">Home</a>
+              </li>
+              <!-- botão sobre a escola -->
+              <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="nav">
                   Sobre a escola
                 </button>
                 <ul class="dropdown-menu">
@@ -45,46 +43,51 @@
                   <li><a class="dropdown-item" href="niveis_ensino.html">Níveis de Ensino</a></li>
                   <li><a class="dropdown-item" href="matricula.html">Matrícula</a></li>
                 </ul>
-                 <!-- Botão festividade -->
-              <div class="dropdown">
-                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              </li>
+              <!-- botão festividades -->
+              <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="nav">
                   Eventos
                 </button>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="eventos.html">Festividades</a></li>
                   <li><a class="dropdown-item" href="calendario.html">Calendário</a></li>
                 </ul>
-            </div>
-              <!-- Botão parceiros -->
-              <div class="dropdown">
-                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              </li>
+              <!-- botão parceiros -->
+              <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="nav">
                   Parceiros
                 </button>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="parceiros.html">Parceiros</a></li>
                   <li><a class="dropdown-item" href="ser_paceiro.html">Seja um parceiro</a></li>
-              </div>
-               <!-- Botão doações-->
-               <div class="dropdown">
-                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                </ul>
+              </li>
+              <!-- botão doações -->
+              <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="nav">
                   Doações
                 </button>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="doacoes.html">Nota fiscal paulista</a></li>
                   <li><a class="dropdown-item" href="outras_formas.html">Outras formas de doar</a></li>
                 </ul>
-                </div>
-                 <!-- Botão fale conosco -->
-              <div class="dropdown">
-                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              </li>
+              <!-- botão contato -->
+              <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="nav">
                   Fale Conosco
                 </button>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="visita.html">Agende sua visita</a></li>
                   <li><a class="dropdown-item" href="contato.html">Contato</a></li>
                 </ul>
-              </div>
-        </nav>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     
     <h2 class="sejaumvoluntario">

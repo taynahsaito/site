@@ -48,10 +48,11 @@
     display: inline-block;
     background-position: left center;
 }
-.dropdown{
+#nav{
   display: flex;
   align-items: center;
   justify-content:space-evenly;
+  font-family: 'zabal';
 }
 /* footer */
 footer{
@@ -197,6 +198,12 @@ button.botao-form-voluntario{
     background-color: #002653;
     border-radius: 20px;
     color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#legenda{
+    font-family: 'zabal';
+    color: black;
 }
 /* página agendar visita */
 .titulo-2{
