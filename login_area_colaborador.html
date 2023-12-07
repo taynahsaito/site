@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do colaborador - Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" referrerpolicy="no-referrer">
+</head>
+<body>
+    <main id="container_colaborador">
+        <div id="login_form">
+            <div id="form_header">
+                <h1>Login</h1>
+            </div>
+
+            <form id="form_entrar">
+                <div id="inputs">
+                    <div class="input-box">
+                        <label for="name">
+                            Nome
+                            <div class="input-field">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="text" id="nome" name="name">
+                            </div>
+                        </label>
+                    </div>
+                    <div class="input-box">
+                        <label for="password">
+                            Senha
+                            <div class="input-field">
+                                <i class="fa-solid fa-lock"></i>
+                                <input type="password" id="senha" name="password">
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div id="cadastro">
+                    <a href="cadastro_area_colaborador.html">Não possui cadastro?</a>
+                </div>
+                <button type="submit" id="login_button" onclick="logar()">
+                    Entrar
+                </button>
+            </form>
+        </div>
+    </main>
+    <script src="area_colaborador.js">
+    </script>
+</body>
+</html>
